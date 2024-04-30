@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: #F9F9F9;
+}
+
+.basliq{
+    width: 95%;
+    height: 40px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.sol{
+    width: 50%;
+    height: 40px;
+    /* background-color: red; */
+    float: left;
+}
+
+.sol p{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 20px;
+    line-height: 30px;
+    background-image: url(../img/coin.png);
+    background-repeat: no-repeat;
+    /* background-size: 20px 20px; */
+    /* background-position: 5px center; */
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9F9;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.sag{
+    width: 50%;
+    height: 40px;
+    /* background-color: yellow; */
+    float: right;
+}
+
+.sag h4{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+.sag p{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    margin-top: 5px;
+    margin-right: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9F9;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 5px;
+    float: right;
+}
+
+/* oyun */
+
+.oyun{
+    width: 90%;
+    height: 200px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.zaman{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    border: 15px #F9F9F9 solid;
+    text-align: center;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50px);
+    
+}
+
+.zaman b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.say{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    border: 3px #F9F9F9 solid;
+    text-align: center;
+    line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-30px);
+}
+
+.say i{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.oyun h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9F9;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(-30px);
+    
+}
+
+.oyun p{
+    width: 90%;
+    height: auto;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(-25px);
+}
+
+/* cavablar */
+
+.cavablar{
+    width: 90%;
+    height: auto;
+    /* background-color: tomato; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.cavab{
+    width: 90%;
+    height: 50px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 700ms;
+}
+
+.cavab:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.cavab h2{
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+.cavab p{
+    line-height: 50px;
+    text-indent: 10px;
+    color: red;
+}
+
+/* menu */
+
+.nav{ 
+    width: 90%;
+    height: 80px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+    position: fixed;
+    left: 5%;
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sol-2{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+   
+}
+
+.sol-2 h3{
+    font-size: 30px;
+    color: #F9F9F9;
+}
+
+.sol-2 p{
+    line-height: 35px;
+    color: #F9F9F9;
+    background-color: red;
+    border: #000000 solid 1px;
+    width: 100px;
+    margin: 0px auto;
+}
+
+.sag-2{
+    border-left: #000000 solid 1px;
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: center;
+}
+
+.sag-2 input{
+    width: 50%;
+    height: 50px;
+    margin: 15px 0px;
+    background-color: #000000;
+    color: red;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lg{
+    background-image: linear-gradient(#fe3166,#f8475f,#ee6758 ) !important;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+.nav{
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.nav a{
+    float: left;
+}
+.nav a img{
+    height: 40px;
+    margin-top: 5px;
+}
+.nav h1{
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: greenyellow;
+    text-align: center;
+}
+.info{
+    width: 95%;
+    height: calc(100vh - 100px);
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.info h2{
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: blueviolet;
+    text-align: center;
+    background-color: turquoise;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.info p{
+    width: 150px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    float: left;
+    margin: 5px;
+    margin-top: 15px;
+    transition: 500ms all;
+    text-align: center;
+}
+
+.info p:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+
+}
+
+.info p img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.info p s, .info p u{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+}

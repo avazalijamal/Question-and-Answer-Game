@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: aqua;
+}
+
+.header{
+    width: 98%;
+    height: 50px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 2px gray;
+}
+
+.left{
+    width: calc((100% - 30px) / 2);
+    height: 50px;
+    background-color: greenyellow;
+    float: left;
+}
+.left img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    float: left;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.left h3,.left p{
+    width: calc(100% - 45px);
+    background-color: cornflowerblue;
+    line-height: 25px;
+    float: left;
+    text-indent: 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    
+}
+
+.left p u{
+    color: brown;
+    font-weight: 700;
+}
+
+
+.center{
+    width: 30px;
+    height: 30px;
+    background-color: hotpink;
+    float: left;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.center p{
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.right{
+    width: calc((100% - 30px) / 2);
+    height: 50px;
+    background-color: greenyellow;
+    float: right;
+}
+.right p{
+    text-align: right;
+    margin-right: 5px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: tomato;
+}
+.right p img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.right p b{
+    color: brown;
+}
+
+
+.ques{
+    width: 95%;
+    height: 130px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    overflow: visible;
+
+}
+.ques b{
+    width: 40px;
+    height: 40px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: -25px;
+    border: 2px solid blueviolet;
+}
+.ques p{
+    width: 95%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.variant{
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.variant b{
+    width: 30px;
+    height: 40px;
+    background-color: peru;
+    display: inline-block;
+    line-height: 40px;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.variant p{
+    width: calc(100% - 35px);
+    height: 40px;
+    line-height: 40px;
+    background-color: gray;
+    float: right;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+.variant:hover b,.variant:hover p{
+    /* background-color:silver; */
+    cursor: pointer;
+}
+
+
+.result{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.699);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+}
+.result div{
+    width: 200px;
+    height: 210px;
+    margin-top: calc((100% - 160px) / 2);
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+.result div p{
+    width: 100%;
+    height: 30px;
+    background-color: coral;
+    margin: 1px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+.result div p b{
+    font-size: 16px;
+    color: white;
+}
+
+.result div div{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    overflow:visible;
+}
+.result div div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+.play{
+    margin-top: -15px;
+    position: relative;
+    /* margin-right: 30px; */
+
+}
+
+
+.l{
+    float: left;
+    margin-left: 10px;
+}
+
+.r{
+    float: right;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    width: 98%;
+    height: 50px;
+    background-color: seagreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.left{
+    width: 65%;
+    height: 50px;
+    /* background-color: greenyellow; */
+    float: left;
+} 
+.left img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: 2.5px;
+    background-color: springgreen;
+    border-radius: 10px;
+}
+.left h3,.left p{
+    line-height: 25px;
+    /* background-color: crimson; */
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+} 
+.left p b{
+    color: yellow;
+} 
+
+.right{
+    width: 35%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    float: right;
+}
+.right p{
+    line-height: 25px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding-right: 5px;
+}
+.right p img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2.5px;
+}
+.right p b{
+    color: yellow;
+}
+
+.game{
+    width: 98%;
+    height: auto;
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  
+}
+
+.game h2{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: slateblue;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.quess{
+    width: 90%;
+    height: 150px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+.quess p{
+    width: 95%;
+    height: auto;
+    line-height: 25px;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.variant{
+    width: 90%;
+    height: 50px;
+    /* line-height: 50px; */
+    background-color: sienna;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    cursor: pointer;
+}
+.variant b{
+    width: 35px;
+    height: 50px;
+    line-height: 50px;
+    background-color: teal;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    border-right: 5px solid whitesmoke;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    float: left;
+    
+}
+.variant span{
+    width:calc(100% - 45px);
+    height: 50px;
+    line-height: 25px;
+    /* background-color: red; */
+    display: inline-block;
+    float: right;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: cornsilk;
+}
+
+.select{
+    background-color: steelblue;
+}
+.success{
+    background-color: darkgreen;
+}
+.error{
+    background-color: red;
+}

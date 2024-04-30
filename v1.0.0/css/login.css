@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    width: 250px;
+    height: 230px;
+    padding-top: 50px;
+    margin-top: calc((100vh - 280px) / 2);
+    background-color: rgb(236, 235, 235);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 3px grey;
+
+}
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: darkblue;
+
+}
+form input{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+form label input{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: gray;
+    text-indent: 10px;
+    outline: none;
+}
